@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    border: 15px #666;
+    flex-wrap: wrap;
+    border-style: solid;
+    height: 500px;
+    flex-direction: row-reverse;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.box {
+    border-style: solid;
+    flex-grow: 1;
+}
+
+.black {
+    background-color: black;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.white {
+    background-color: white;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
